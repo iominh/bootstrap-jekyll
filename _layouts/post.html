@@ -1,9 +1,35 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-<div class="post">
-{{ content }}
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    </div>
 </div>
+
+
+<div class="container">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+</div>
+
+
+<article class="post">
+    {{ content }}
+</article>
+
+
+</body>
+</html>
+

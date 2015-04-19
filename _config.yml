@@ -1,4 +1,5 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: Bootstrap Jekyll
+markdown: kramdown
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:categories/:year/:month/:day/:title/
