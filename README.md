@@ -1,3 +1,10 @@
+Bootstrap Jekyll
+=============================
+
+A starter project with Jekyll, GulpJS, Sass, AutoPrefixer, BrowserSync, Bootstrap Sass. This is an extension to
+jekyll-gulp-sass-browser-sync.
+
+
 jekyll-gulp-sass-browser-sync
 =============================
 

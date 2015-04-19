@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-jekyll",
+  "version": "0.0.1",
+  "homepage": "http://www.minh.io",
+  "authors": [
+    "minh.90.nguyen@gmail.com"
+  ],
+  "description": "Bootstrap with Jekyll, Gulp, Sass",
+  "main": "index.html",
+  "keywords": [
+    "bootstrap",
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4"
+  }
+}
