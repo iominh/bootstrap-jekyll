@@ -1,4 +1,4 @@
-@import "variables";
+@import "../variables";
 
 @mixin breakpoint($point) {
   @if $point == sm {

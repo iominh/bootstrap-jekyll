@@ -1,0 +1,8 @@
+$font-size-base: 16px;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+//$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-monospace:  monospace, monospace !default;
+$grid-gutter-width: 30px !default;
+$container-tablet: (620px + $grid-gutter-width) !default;
+$container-md: $container-tablet;
+$container-lg: $container-tablet;

@@ -1,22 +1,6 @@
-//@import "reset";
-@import "syntax";
+@import "vendor/syntax-github";
 @import "../assets/bower_components/normalize-scss/normalize";
-
-$font-size-base: 16px;
-$grid-gutter-width: 30px !default;
-$container-tablet: (620px + $grid-gutter-width) !default;
-$container-md: $container-tablet;
-$container-lg: $container-tablet;
+@import "util/variables";
 @import "../assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
-
-html {
-  font-size: 100%;
-}
-
-body {
-  background: white;
-}
-
-.meta {
-  color: #aaa;
-}
+@import "base/base";
+@import "modules/code";
