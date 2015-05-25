@@ -69,7 +69,7 @@ Bears are very majestic, wouldn't you agree? Here's an example of a majestic bea
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 </section>
 
-<h3 id="bigimage" class="container">Full Width Image</h3>
+<h3 id="bigimage">Full Width Image</h3>
 
 <img class="" src="{{default_feature_image}}" alt="Test Image" />
 
