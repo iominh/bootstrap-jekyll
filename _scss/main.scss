@@ -1,6 +1,11 @@
+@import "util/variables";
+
+// vendor
 @import "vendor/syntax-github";
 @import "../assets/bower_components/normalize-scss/normalize";
-@import "util/variables";
 @import "../assets/bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+@import "../assets/bower_components/font-awesome/scss/font-awesome.scss";
+
 @import "base/base";
 @import "modules/code";
+@import "../_includes/navbar/navbar";

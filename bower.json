@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "bootstrap-sass": "~3.3.4",
-    "normalize-scss": "~3.0.2"
+    "normalize-scss": "~3.0.2",
+    "font-awesome": "~4.3.0"
   }
 }
